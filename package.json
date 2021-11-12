@@ -1,12 +1,24 @@
 {
-  "name": "lpio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "lpio",
+	"version": "0.0.0",
+	"description": "",
+	"type": "module",
+	"main": "./test/lpio-test.js",
+	"scripts": {
+		"start": "node ./test/lpio-test.js",
+		"dev": "nodemon ./test/lpio-test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/C-H-L/lpio.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.14"
+	},
+	"dependencies": {
+		"epoll": "^4.0.1"
+	}
 }
